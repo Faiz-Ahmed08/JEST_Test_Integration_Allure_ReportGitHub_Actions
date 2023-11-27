@@ -1,42 +1,18 @@
-name: build
-
+name: test
 on:
   push:
-    branches: [ main ]
+    branches:
+      - main
   pull_request:
-    branches: [ main ]
-
+    branches:
+      - main
 jobs:
-
-  build:
-
+  test:
     runs-on: ubuntu-latest
-
     steps:
-    - uses: actions/checkout@v3
-
-    - name: Setup Python
-      uses: actions/setup-python@v4
-      with:
-        python-version: '3.10'
-
-    - name: Run Python unit tests
-      run: python3 -u -m unittest tests/tests.py
-
-    - name: Verify that the Docker image for the action builds
-      run: docker build . --file Dockerfile
-
-    - name: Integration test 1
-      uses: ./
-      with:
-        input-one: something
-        input-two: true
-
-    - name: Integration test 2
-      uses: ./
-      with:
-        input-one: something else
-        input-two: false
-
-    - name: Verify integration test results
-      run: python3 -u -m unittest tests/integration.py
+      - uses: actions/checkout@v3
+      - uses: actions/setup-node@v3
+        with:
+          node-version: "16"
+      - run: npm ci
+      - run: npm test

@@ -1,4 +1,14 @@
 {
   "main": "app.js",
-"scripts": {"test": "node ./node_modules/mocha/bin/mocha --timeout=80000 ./Tests/launchEdgeBrowser.js"}
+"scripts": {
+    "test": "jest"
+  },
+  "keywords": [
+    "jest"
+  ],
+  "author": "Faiz Ahmed",
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "jest": "^29.5.0"
+  }
 }

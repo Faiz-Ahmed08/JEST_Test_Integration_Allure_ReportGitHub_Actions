@@ -1,6 +1,6 @@
 {
   "main": "app.js",
-  "scripts": {
-    "test": "app.test.js"
+ "scripts": {
+    "test": "jest --config=./config/jest/jest_all.config.json --runInBand"
   }
 }

@@ -1,5 +1,5 @@
 {
   "scripts": {
-    "test": "app.test"
+    "test": "app.js"
   }
 }

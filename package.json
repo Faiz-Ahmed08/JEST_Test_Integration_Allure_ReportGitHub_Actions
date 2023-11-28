@@ -1,6 +1,7 @@
 {
   "main": "app.js",
- "scripts": {
-    
-  }
+"scripts": {
+  "test": "mocha --recursive test",
+  "bump-version": "npm version patch"
+}
 }

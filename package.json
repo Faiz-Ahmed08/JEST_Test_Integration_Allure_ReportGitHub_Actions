@@ -1,4 +1,4 @@
 {
   "main": "app.js",
-"scripts": {"test": "mocha"}
+"scripts": {"test": "node ./node_modules/mocha/bin/mocha --timeout=80000 ./Tests/launchEdgeBrowser.js"}
 }

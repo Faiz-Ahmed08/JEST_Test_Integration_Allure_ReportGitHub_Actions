@@ -1,8 +1,5 @@
 {
-	...
   "scripts": {
-    ...
-    "test": "jest"
-  },
-  ...
+    "test": "app.test"
+  }
 }

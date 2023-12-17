@@ -26,27 +26,27 @@ jobs:
         if: always()
         continue-on-error: true
       - uses: actions/upload-artifact@master
-        with: null
-        name: allure-results
-        path: allure-results
-        retention-days: 20
+        with: 
+          name: allure-results
+          path: allure-results
+          retention-days: 20
       - name: Get Allure history
         uses: actions/checkout@v2
         if: always()
         continue-on-error: true
-        with: null
-        ref: gh-pages
-        path: gh-pages
+        with: 
+          ref: gh-pages
+          path: gh-pages
       - name: Test marketplace action
         uses: simple-elf/allure-report-action@master
         if: always()
         id: allure-report
-        with: null
-        allure_results: allure-results
-        gh_pages: gh-pages
-        allure_report: allure-report
-        allure_history: allure-history
-        keep_reports: 20
+        with:
+          allure_results: allure-results
+          gh_pages: gh-pages
+          allure_report: allure-report
+          allure_history: allure-history
+          keep_reports: 20
       - name: Deploy report to Github Pages
         if: always()
         uses: peaceiris/actions-gh-pages@v2

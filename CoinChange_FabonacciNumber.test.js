@@ -1,5 +1,5 @@
 
-const { change, fib } = require('../CoinChange_FabonacciNumber.js');
+const { change, fib } = require('CoinChange_FabonacciNumber.js');
 
 describe("Testing change", () => {
 

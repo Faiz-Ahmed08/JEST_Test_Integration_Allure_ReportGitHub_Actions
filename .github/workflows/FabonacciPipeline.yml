@@ -1,3 +1,4 @@
+---
 name: FabonacciPipeline_Test
 on:
   push:
@@ -25,13 +26,13 @@ jobs:
       - name: Build test report
         uses: simple-elf/allure-report-action@v1.7
         if: always()
-        with: 
+        with: null
         gh_pages: main
         allure_history: allure-history
         allure_results: build/allure-results
       - name: Publish test report
         if: always()
-        with:
+        with: null
         github_token: $
         publish_branch: main
         publish_dir: allure-history

@@ -1,7 +1,14 @@
 {
-  "main": "app.js",
-"scripts": {
-    "test": ""
+  "name": "github-actions-NodeJS_Demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
   },
-  "author": "Faiz Ahmed"
- }
+  "author": "Faiz Ahmed",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^27.4.3"
+  }
+}

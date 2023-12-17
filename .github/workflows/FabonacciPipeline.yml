@@ -45,8 +45,7 @@ jobs:
      # Run Test
       - run: npm install
       - run: npm run build
-        run: |
-         newman npm test -r htmlextra --reporter-htmlextra-export SampleArtifact/report.html
+      - run: npm test
          
       #Publish the Report
       - name: Publish Report

@@ -1,6 +1,7 @@
 /** @type {import('jest').Config} */
 const config = {
-  testEnvironment: "allure-jest",
+  /**testEnvironment: "allure-jest", */
+   verbose: true,
 };
 
 module.exports = config;

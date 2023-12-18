@@ -22,17 +22,10 @@ jobs:
           node-version: ${{ matrix.node-version }}
           cache: npm
       - run: npm ci
-      - run: npm test 
+      - run: npm test --logger "trx;LogFileName=xtests.trx"
         if: always()
         continue-on-error: true
-      - uses: actions/checkout@v4
-      - name: Create test summary
-        uses: ./bin
+      - name: Publish Test Results
+        uses: EnricoMi/publish-unit-test-result-action@v2.11.0
         with:
-          paths: reports/*.xml
-          output: reports/results.html
-      - name: Upload test summary
-        uses: actions/upload-artifact@v3
-        with:
-          name: test-summary
-          path: reports/results.html
+           trx_files: "/home/runner/work/TestCode_Faiz_Ahmed/reports/TestResult/xtests.trx"

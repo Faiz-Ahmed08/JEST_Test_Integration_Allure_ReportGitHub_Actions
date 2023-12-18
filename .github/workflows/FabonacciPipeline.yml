@@ -22,7 +22,7 @@ jobs:
           node-version: ${{ matrix.node-version }}
           cache: npm
       - run: npm ci
-      - run: npm test --logger "trx;LogFileName=xtests.trx"
+      - run: npm test 
         if: always()
         continue-on-error: true
       - name: Publish Test Results

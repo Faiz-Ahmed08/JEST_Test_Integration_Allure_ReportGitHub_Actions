@@ -1,0 +1,17 @@
+name: 'Node JS Test Dashboard : By Faizzy !'
+description: 'Display Test Results summary in a GitHub Actions workflow'
+author: 'Faiz Ahmed'
+inputs:
+  paths:
+    description: Path(s) to test output file(s) to analyze
+    required: true
+  output:
+    description: File to write with rendered output
+  show:
+    description: Types of tests to show in the results table
+runs:
+  using: 'node16'
+  main: 'index.js'
+branding:
+  icon: check-square
+  color: green

@@ -25,11 +25,14 @@ jobs:
       - run: npm test 
         if: always()
         continue-on-error: true
-      - name: Publish Test Results
-        uses: EnricoMi/publish-unit-test-result-action@v2
-        if: always()
+       
+      - name: Create test summary
+        uses: ./bin
         with:
-         files: |
-          reports/**/*.xml
-          reports/**/*.trx
-          reports/**/*.json
+          paths: reports/*.xml
+          output: reports/results.html
+      - name: Upload test summary
+        uses: actions/upload-artifact@v3
+        with:
+          name: test-summary
+          path: reports/results.html

@@ -25,6 +25,8 @@ jobs:
       - run: npm test 
         if: always()
         continue-on-error: true
+      - run: npx allure serve allure-results
+      
       - name: Setup Allure History
         uses: actions/checkout@v4.1.1
         if: always()

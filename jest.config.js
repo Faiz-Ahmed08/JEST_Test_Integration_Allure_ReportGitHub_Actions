@@ -1,7 +1,7 @@
 /** @type {import('jest').Config} */
 const config = {
  testEnvironmentOptions: {
-    resultsDir: "./allure-results"
+    resultsDir: "target/allure-results"
  }
 }
 

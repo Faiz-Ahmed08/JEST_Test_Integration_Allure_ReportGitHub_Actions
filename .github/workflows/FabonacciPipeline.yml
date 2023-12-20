@@ -22,7 +22,7 @@ jobs:
           node-version: ${{ matrix.node-version }}
           cache: npm
       - run: npm ci
-      - run: npm test --logger "xml;LogFileName=test-results.xml"
+      - run: npm test --logger "js;LogFileName=test-results.js"
         if: always()
         continue-on-error: true
    
@@ -31,7 +31,7 @@ jobs:
         with:
          artifact: test-results            # artifact name
          name: JEST Tests                  # Name of the check run which will be created
-         path: '*.xml'                     # Path to test results (inside artifact .zip)
+         path: '*.js'                     # Path to test results (inside artifact .zip)
          reporter: jest-junit
             
       

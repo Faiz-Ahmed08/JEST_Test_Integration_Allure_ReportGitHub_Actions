@@ -22,7 +22,7 @@ jobs:
           node-version: ${{ matrix.node-version }}
           cache: npm
       - run: npm ci
-      - run: npm test --logger "trx;LogFileName=test-results.trx"
+      - run: npm test --logger "json;LogFileName=test-results.json"
         if: always()
         continue-on-error: true
    
@@ -31,7 +31,7 @@ jobs:
         if: always()
         with:
          name: Jest Tests Result
-         path: "**/test-results.trx"                            
+         path: "**/test-results.json"                            
          reporter: dotnet-trx
          fail-on-error: true
       

@@ -3,7 +3,10 @@ const config = {
  testEnvironmentOptions: {
     resultsDir: "./allure-results"
  } ,
-  reporters: [['github-actions', {silent: false}], 'summary']
+ reporters: [
+    'default',
+    ['jest-junit', {outputDirectory: 'reports', outputName: 'report.xml'}]
+  ]
 }
 
 module.exports = config

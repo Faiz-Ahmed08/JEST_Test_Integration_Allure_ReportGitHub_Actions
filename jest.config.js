@@ -1,6 +1,9 @@
 /** @type {import('jest').Config} */
 const config = {
-  verbose: true,
-};
++  testEnvironment: "allure-jest/node",
++  testEnvironmentOptions: {
++    resultsDir: "./allure-results"
++  }
+}
 
-module.exports = config;
+module.exports = config

@@ -25,6 +25,10 @@ jobs:
       - run: npm test 
         if: always()
         continue-on-error: true
+      - name: Install Allure
+        run: npm install -g allure-commandline
+      - name: Generate Allure Report
+        run: npx allure generate --clean && npx allure open
       - name: Get Allure history
         uses: actions/checkout@v2
         if: always()

@@ -1,6 +1,6 @@
-/** @type {import('jest').Config} */
+ @type {import('jest').Config} 
 const config = {
-  /**testEnvironment: "allure-jest", */
+testEnvironment: "allure-jest", 
    verbose: true,
 };
 

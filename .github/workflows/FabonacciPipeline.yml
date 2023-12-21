@@ -22,14 +22,8 @@ jobs:
           node-version: ${{ matrix.node-version }}
           cache: npm
       - run: npm ci
-      - run: npm test 
+      - run: npm test -- --coverage
         if: always()
         continue-on-error: true
-        # finally run the tests
-      - run: npm run coverage
-         # Save coverage report in Coveralls
-      - name: Coveralls
-        uses: coverallsapp/github-action@master
-        with:
-          github-token: ${{ secrets.GITHUB_TOKEN }}
-      
+       
+          

@@ -4,11 +4,18 @@
   "description": "",
   "main": "app.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest --coverage"
+  }, 
+  "jest": {
+    "collectCoverage": true,
+    "coverageReporters": ["json", "html"]
   },
   "author": "Faiz Ahmed",
   "license": "ISC",
   "devDependencies": {
     "jest": "^27.4.3"
   }
-}
+} 
+
+
+  

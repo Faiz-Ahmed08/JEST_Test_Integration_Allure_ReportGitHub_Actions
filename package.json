@@ -4,8 +4,7 @@
   "description": "",
   "main": "app.js",
   "scripts": {
-    "test": "jest",
-    "coverage": "nyc --reporter=lcov npm test"
+    "test": "jest"
   },
   "author": "Faiz Ahmed",
   "license": "ISC",

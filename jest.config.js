@@ -1,9 +1,7 @@
 /** @type {import('jest').Config} */
 const config = {
-  reporters: [
-    'default',
-    ['jest-junit', {outputDirectory: 'reports', outputName: 'report.xml'}],
-  ],
+  /**testEnvironment: "allure-jest", */
+   verbose: true,
 };
 
 module.exports = config;

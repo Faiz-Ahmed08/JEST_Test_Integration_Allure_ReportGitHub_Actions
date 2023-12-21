@@ -4,12 +4,11 @@
   "description": "",
   "main": "app.js",
   "scripts": {
-    "test": "app.js"
+    "test": "jest"
   },
   "author": "Faiz Ahmed",
   "license": "ISC",
   "devDependencies": {
-    "jest": "^27.4.3",
-    "jest-junit": "^4.0.0"
+    "jest": "^27.4.3"
   }
 }

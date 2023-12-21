@@ -25,7 +25,7 @@ jobs:
       - run: npm install --save-dev allure-commandline
       - run: npm install --save-dev allure-jest
       - run: npm ci
-      - run: npm test -- --coverage
+      - run: npm test 
         if: always()
         continue-on-error: true
       - name: Load test report history

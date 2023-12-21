@@ -5,10 +5,6 @@
   "main": "app.js",
   "scripts": {
     "test": "jest --coverage"
-  }, 
-  "jest": {
-    "collectCoverage": true,
-    "coverageReporters": ["json", "html"]
   },
   "author": "Faiz Ahmed",
   "license": "ISC",

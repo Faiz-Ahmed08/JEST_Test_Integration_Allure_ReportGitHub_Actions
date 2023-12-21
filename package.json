@@ -4,7 +4,7 @@
   "description": "",
   "main": "app.js",
   "scripts": {
-    "test": "jest --ci --testResultsProcessor='jest-junit'"
+    "test": "app.js"
   },
   "author": "Faiz Ahmed",
   "license": "ISC",

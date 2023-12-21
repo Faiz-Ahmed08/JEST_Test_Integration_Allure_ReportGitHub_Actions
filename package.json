@@ -13,7 +13,7 @@
   "jest-junit": {
     "suiteName": "Test Suite",
     "output": "./junit.xml"
-  }
+  },
   "author": "Faiz Ahmed",
   "license": "ISC",
   "devDependencies": {
@@ -21,4 +21,3 @@
     "jest-junit": "^4.0.0"
   }
 }
- 

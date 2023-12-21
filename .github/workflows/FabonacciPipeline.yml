@@ -25,4 +25,9 @@ jobs:
       - run: npm test 
         if: always()
         continue-on-error: true
+         # Save coverage report in Coveralls
+      - name: Coveralls
+        uses: coverallsapp/github-action@master
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
       

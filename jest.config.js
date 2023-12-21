@@ -1,8 +1,8 @@
 /** @type {import('jest').Config} */
 const config = {
-  /**testEnvironment: "allure-jest", */
+  testEnvironment: "allure-jest", 
    verbose: true, 
-   testEnvironment: "allure-jest/jsdom",
+     /**testEnvironment: "allure-jest/jsdom",*/
  /** "reporters": [
 	"default",
 	["./node_modules/jest-html-reporter", {

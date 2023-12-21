@@ -22,11 +22,11 @@ jobs:
           node-version: ${{ matrix.node-version }}
           cache: npm
       - run: npm ci
-      - run: npm test --logger "trx;LogFileName=xtests.trx"
+      - run: npm test --logger "xml;LogFileName=xtests.xml"
         if: always()
         continue-on-error: true
       - name: Publish Test Results
         uses: EnricoMi/publish-unit-test-result-action@v2.11.0
         with:
-           trx_files: "/home/runner/work/TestCode_Faiz_Ahmed/reports/TestResult/xtests.trx"
+           trx_files: "/home/runner/work/TestCode_Faiz_Ahmed/reports/TestResult/xtests.xml"
       

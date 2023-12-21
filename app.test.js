@@ -5,3 +5,4 @@ test("add two numbers", () => {
   expect(sum(3, 4)).toBe(8);
   }
 });
+});

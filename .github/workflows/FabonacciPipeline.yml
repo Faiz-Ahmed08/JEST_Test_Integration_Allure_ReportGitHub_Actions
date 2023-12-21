@@ -21,6 +21,7 @@ jobs:
         with:
           node-version: ${{ matrix.node-version }}
           cache: npm
+      - run: npm install jest-html-reporter --save-dev    
       - run: npm ci
       - run: npm test -- --coverage
         if: always()

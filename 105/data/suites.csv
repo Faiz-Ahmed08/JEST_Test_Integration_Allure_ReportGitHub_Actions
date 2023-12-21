@@ -1,0 +1,6 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Thu Dec 21 23:50:38 GMT 2023","Thu Dec 21 23:50:38 GMT 2023","16","Testing fib","","","","","Return 1 as the fibonacci number of 1",""
+"passed","Thu Dec 21 23:50:38 GMT 2023","Thu Dec 21 23:50:38 GMT 2023","14","Testing change","","","","","When making change for amount 0, return 1 regardless of the coins passed",""
+"passed","Thu Dec 21 23:50:38 GMT 2023","Thu Dec 21 23:50:38 GMT 2023","15","Testing fib","","","","","Return 0 as the fibonacci number of 0",""
+"passed","Thu Dec 21 23:50:38 GMT 2023","Thu Dec 21 23:50:38 GMT 2023","14","Testing change","","","","","When making change for 8, with coins [1, 2, 3] return  10",""
+"passed","Thu Dec 21 23:50:38 GMT 2023","Thu Dec 21 23:50:38 GMT 2023","15","Testing fib","","","","","Return 21 as the fibonacci number of 8",""

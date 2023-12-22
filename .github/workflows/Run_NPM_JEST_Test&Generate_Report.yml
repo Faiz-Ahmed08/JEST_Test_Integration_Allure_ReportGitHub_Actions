@@ -1,5 +1,5 @@
 ---
-name: FabonacciPipeline_Test
+name: Run_NPM_JEST_Test&Generate_Report
 on:
   push:
     branches:

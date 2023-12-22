@@ -2,7 +2,7 @@
 ![JEST Test Execution and Allure Report Generation Using GitHub Actions by faiz-ahmed08](https://github.com/Faiz-Ahmed08/JEST_Test_Integration_Allure_ReportGitHub_Actions/assets/152106688/b05e336f-1371-446b-ba4e-f13acb3bd9a0)
 
 
-This is sample Repository for Running the JEST test case using GitHub Actions and Generating Allure Report !!
+This is sample Repository for running the JEST test case using GitHub Actions and Generating Allure Report !!
 
 Allure Test Report Link : https://faiz-ahmed08.github.io/JEST_Test_Integration_Allure_ReportGitHub_Actions
 Author : Faiz Ahmed

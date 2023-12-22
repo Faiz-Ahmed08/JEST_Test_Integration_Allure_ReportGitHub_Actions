@@ -1,5 +1,5 @@
 ---
-name: Run_NPM_JEST_Test&Generate_Report
+name: Run_NPM_JEST_Test_Generate_Allure_Report
 on:
   push:
     branches:
@@ -52,3 +52,4 @@ jobs:
           publish_branch: gh-pages
           publish_dir: allure-history
           
+#Author : Faizzy aka Faiz Ahmed https://www.linkedin.com/in/faiz-ahmed-a2660189/

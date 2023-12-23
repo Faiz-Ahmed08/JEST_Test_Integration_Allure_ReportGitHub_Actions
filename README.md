@@ -24,6 +24,9 @@ Step 6 : Configure action workflow file Run_NPM_JEST_Test_Generate_Allure_Report
 
 **Note : One Test case is failing for showing failure in test report.**
 
+![image](https://github.com/Faiz-Ahmed08/JEST_Test_Integration_Allure_ReportGitHub_Actions/assets/152106688/82ae1426-ebc4-4493-927b-c0f3ac721cb0)
+
+
 **Allure Test Report Link** : [Allure Test Report Site ](https://faiz-ahmed08.github.io/JEST_Test_Integration_Allure_ReportGitHub_Actions)
 
 **Author** :  Faiz Ahmed

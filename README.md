@@ -22,6 +22,8 @@ Step 5 : **Set up publishing to GitHub Pages**
 
 Step 6 : Configure action workflow file Run_NPM_JEST_Test_Generate_Allure_Report.yml
 
+**Note : One Test case is failing for showing failure in test report.**
+
 **Allure Test Report Link** : [Allure Test Report Site ](https://faiz-ahmed08.github.io/JEST_Test_Integration_Allure_ReportGitHub_Actions)
 
 **Author** :  Faiz Ahmed

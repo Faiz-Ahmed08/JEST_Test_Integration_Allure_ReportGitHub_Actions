@@ -15,12 +15,17 @@ Step 4 : Configure allure properties in resource/allure.properties
 
 Step 5 : **Set up publishing to GitHub Pages**
 ![image](https://github.com/Faiz-Ahmed08/JEST_Test_Integration_Allure_ReportGitHub_Actions/assets/152106688/022c1005-2cba-44ed-84cc-70fca12276da)  
-[Reference Link](https://allurereport.org/docs/integrations-github/#3-set-up-publishing-to-github-pages)
+
+[Reference Link](https://allurereport.org/docs/integrations-github/#3-set-up-publishing-to-github-pages) 
+
 ![image](https://github.com/Faiz-Ahmed08/JEST_Test_Integration_Allure_ReportGitHub_Actions/assets/152106688/86557594-456a-4c2f-b895-b8294bca4697)
 
 Step 6 : Configure action workflow file Run_NPM_JEST_Test_Generate_Allure_Report.yml
 
-**Allure Test Report Link:** https://faiz-ahmed08.github.io/JEST_Test_Integration_Allure_ReportGitHub_Actions
-**Author :** Faiz Ahmed
-**Email :** faiz08889@gmail.com
-**Linkedin :** https://www.linkedin.com/in/faiz-ahmed-a2660189/
+**Allure Test Report Link** : [Allure Test Report Site ](https://faiz-ahmed08.github.io/JEST_Test_Integration_Allure_ReportGitHub_Actions)
+
+**Author** :  Faiz Ahmed
+
+**Email** : faiz08889@gmail.com
+
+**Linkedin** : https://www.linkedin.com/in/faiz-ahmed-a2660189/

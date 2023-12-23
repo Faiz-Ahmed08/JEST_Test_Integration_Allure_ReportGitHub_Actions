@@ -26,6 +26,6 @@ Step 6 : Configure action workflow file Run_NPM_JEST_Test_Generate_Allure_Report
 
 **Author** :  Faiz Ahmed
 
-**Email** : faiz08889@gmail.com
+**Email 📬** : faiz08889@gmail.com
 
-**Linkedin** : https://www.linkedin.com/in/faiz-ahmed-a2660189/
+**Linkedin 💼** : https://www.linkedin.com/in/faiz-ahmed-a2660189/
